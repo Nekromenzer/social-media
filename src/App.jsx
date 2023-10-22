@@ -5,9 +5,9 @@ import {
   BsGithub,
   BsYoutube,
   BsTiktok,
-  BsWhatsapp,
-  BiLogoTelegram
+  BsWhatsapp
 } from 'react-icons/bs'
+import { BiLogoTelegram } from 'react-icons/bi'
 
 function App () {
   const socialLinks = [
@@ -55,17 +55,20 @@ function App () {
     }
   ]
   return (
-    <div className='flex flex-col justify-center items-center gap-6 my-8'>
-      {socialLinks.map((item, idx) => (
-        <a href={item.url} target='_blank' rel='noreferrer' key={idx}>
-          <div
-            className={`${item.customClass} rounded-3xl shadow  hover:px-12 gap-12 min-w-[20rem] duration-500 transition-all group w-auto flex items-center justify-between px-8 py-1 min-h-[3rem] max-w-[30rem]`}
-          >
-            <div className='font-mono text-xl'>{item.name}</div>
-            <div>{item.icon}</div>
-          </div>
-        </a>
-      ))}
+    <div>
+      <div className='text-center mt-5 italic'>Follow me here</div>
+      <div className='flex flex-col justify-center items-center gap-6 my-8'>
+        {socialLinks.map((item, idx) => (
+          <a href={item.url} target='_blank' rel='noreferrer' key={idx}>
+            <div
+              className={`${item.customClass} rounded-3xl shadow  hover:px-12 gap-12 min-w-[18rem] xl:min-w-[20rem] duration-500 transition-all group w-auto flex items-center justify-between px-8 py-1 min-h-[3rem] max-w-[30rem]`}
+            >
+              <div className='font-mono text-md xl:text-xl'>{item.name}</div>
+              <div>{item.icon}</div>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   )
 }
