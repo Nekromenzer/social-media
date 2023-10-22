@@ -37,7 +37,7 @@ function App () {
       name: 'Tiktok',
       url: 'https://www.linkedin.com/in/maneesha-gimshan/',
       icon: <BsTiktok className='text-2xl group-hover:text-3xl' />,
-      customClass: 'bg-[#000000W] text-white'
+      customClass: 'bg-[#000000] text-white'
     }
   ]
   return (
