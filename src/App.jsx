@@ -43,13 +43,13 @@ function App () {
     },
     {
       name: 'Youtube',
-      url: 'https://www.linkedin.com/in/maneesha-gimshan/',
+      url: 'https://www.youtube.com/channel/UClZf7b8FYFnGQKzMIP2n4wg',
       icon: <BsYoutube className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#FF0000] text-white'
     },
     {
       name: 'Tiktok',
-      url: 'https://www.linkedin.com/in/maneesha-gimshan/',
+      url: 'https://www.tiktok.com/@nekromenzer',
       icon: <BsTiktok className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#000000] text-white'
     }
