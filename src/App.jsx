@@ -6,7 +6,7 @@ import {
   BsYoutube,
   BsTiktok,
   BsWhatsapp,
-  BiLogoDiscord
+  BsDiscord 
 } from 'react-icons/bs'
 import { BiLogoTelegram } from 'react-icons/bi'
 
@@ -21,7 +21,7 @@ function App () {
     {
       name: 'Discord Channel',
       url: 'https://discord.gg/AcBTdvX8',
-      icon: <BiLogoDiscord className='text-2xl group-hover:text-3xl' />,
+      icon: <BsDiscord  className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#7289DA] text-white'
     },
     {
