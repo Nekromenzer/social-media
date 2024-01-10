@@ -20,7 +20,7 @@ function App () {
     },
     {
       name: 'Discord Channel',
-      url: 'https://discord.gg/AcBTdvX8',
+      url: 'https://discord.gg/xxW4979axP',
       icon: <BsDiscord  className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#7289DA] text-white'
     },
