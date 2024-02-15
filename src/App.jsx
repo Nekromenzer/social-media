@@ -9,9 +9,16 @@ import {
   BsDiscord 
 } from 'react-icons/bs'
 import { BiLogoTelegram } from 'react-icons/bi'
+import { FaWpforms } from "react-icons/fa6";
 
 function App () {
   const socialLinks = [
+     {
+      name: 'Class Forum',
+      url: 'https://forms.gle/qgtUWroEpzDoHHEv6',
+      icon: <FaWpforms className='text-2xl group-hover:text-3xl' />,
+      customClass: 'bg-[#8430CE] text-white'
+    },
     {
       name: 'Telegram Group',
       url: 'https://t.me/+0AQ16PogUEM1YThl',
