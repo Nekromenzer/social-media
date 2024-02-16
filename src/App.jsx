@@ -5,17 +5,31 @@ import {
   BsGithub,
   BsYoutube,
   BsTiktok,
-  BsWhatsapp
+  BsWhatsapp,
+  BsDiscord 
 } from 'react-icons/bs'
 import { BiLogoTelegram } from 'react-icons/bi'
+import { FaWpforms } from "react-icons/fa6";
 
 function App () {
   const socialLinks = [
+     {
+      name: 'Class Forum',
+      url: 'https://forms.gle/qgtUWroEpzDoHHEv6',
+      icon: <FaWpforms className='text-2xl group-hover:text-3xl' />,
+      customClass: 'bg-[#8430CE] text-white'
+    },
     {
       name: 'Telegram Group',
       url: 'https://t.me/+0AQ16PogUEM1YThl',
       icon: <BiLogoTelegram className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#229ED9] text-white'
+    },
+    {
+      name: 'Discord Channel',
+      url: 'https://discord.gg/xxW4979axP',
+      icon: <BsDiscord  className='text-2xl group-hover:text-3xl' />,
+      customClass: 'bg-[#7289DA] text-white'
     },
     {
       name: 'Whatsapp channel',
@@ -43,13 +57,13 @@ function App () {
     },
     {
       name: 'Youtube',
-      url: 'https://www.linkedin.com/in/maneesha-gimshan/',
+      url: 'https://www.youtube.com/channel/UClZf7b8FYFnGQKzMIP2n4wg',
       icon: <BsYoutube className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#FF0000] text-white'
     },
     {
       name: 'Tiktok',
-      url: 'https://www.linkedin.com/in/maneesha-gimshan/',
+      url: 'https://www.tiktok.com/@nekromenzer',
       icon: <BsTiktok className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#000000] text-white'
     }
