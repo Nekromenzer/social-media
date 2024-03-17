@@ -13,11 +13,17 @@ import { FaWpforms } from "react-icons/fa6";
 
 function App () {
   const socialLinks = [
+    //  {
+    //   name: 'Class Forum',
+    //   url: 'https://forms.gle/qgtUWroEpzDoHHEv6',
+    //   icon: <FaWpforms className='text-2xl group-hover:text-3xl' />,
+    //   customClass: 'bg-[#8430CE] text-white'
+    // },
      {
-      name: 'Class Forum',
-      url: 'https://forms.gle/qgtUWroEpzDoHHEv6',
-      icon: <FaWpforms className='text-2xl group-hover:text-3xl' />,
-      customClass: 'bg-[#8430CE] text-white'
+      name: 'Facebook Personal Profile',
+      url: 'https://facebook.com/gimshan.nekromenzer',
+      icon: <BsFacebook className='text-2xl group-hover:text-3xl' />,
+      customClass: 'bg-[#3b5998] text-white'
     },
     {
       name: 'Telegram Group',
@@ -43,9 +49,9 @@ function App () {
       icon: <BsGithub className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#4078c0] text-white'
     },
-    {
-      name: 'Facebook',
-      url: 'https://facebook.com/gimshan.nekromenzer',
+     {
+      name: 'Facebook Page',
+      url: 'https://web.facebook.com/nekromenzerdev',
       icon: <BsFacebook className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#3b5998] text-white'
     },
