@@ -20,7 +20,7 @@ function App () {
     //   customClass: 'bg-[#8430CE] text-white'
     // },
      {
-      name: 'Facebook Personal Profile',
+      name: 'Facebook Personal',
       url: 'https://facebook.com/gimshan.nekromenzer',
       icon: <BsFacebook className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#3b5998] text-white'
