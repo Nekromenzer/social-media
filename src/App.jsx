@@ -21,7 +21,7 @@ function App () {
     // },
      {
       name: 'Facebook Personal',
-      url: 'https://facebook.com/gimshan.nekromenzer',
+      url: 'https://facebook.com/gimshan.nekromenzer99',
       icon: <BsFacebook className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#3b5998] text-white'
     },
@@ -37,12 +37,12 @@ function App () {
       icon: <BsDiscord  className='text-2xl group-hover:text-3xl' />,
       customClass: 'bg-[#7289DA] text-white'
     },
-    {
-      name: 'Whatsapp channel',
-      url: 'https://whatsapp.com/channel/0029VaDKBYI5Ui2cPup58U40',
-      icon: <BsWhatsapp className='text-2xl group-hover:text-3xl' />,
-      customClass: 'bg-[#128C7E] text-white'
-    },
+    // {
+    //   name: 'Whatsapp channel',
+    //   url: 'https://whatsapp.com/channel/0029VaDKBYI5Ui2cPup58U40',
+    //   icon: <BsWhatsapp className='text-2xl group-hover:text-3xl' />,
+    //   customClass: 'bg-[#128C7E] text-white'
+    // },
     {
       name: 'Github',
       url: 'https://github.com/Nekromenzer',
